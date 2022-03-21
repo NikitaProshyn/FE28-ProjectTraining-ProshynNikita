@@ -1,0 +1,16 @@
+@import url('/css/cnd.css');
+@import url('/css/awesome.css');
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+}
+
+.container {
+   max-width: 1170px;
+   padding: 0px 15px;
+   margin: auto;
+}
