@@ -1,5 +1,6 @@
-@import url('/css/cnd.css');
-@import url('/css/awesome.css');
+@import url(/FE28-ProjectTraining-ProshynNikita/css/awesome.css);
+@import url(/FE28-ProjectTraining-ProshynNikita/css/cdn.css);
+@import url(/FE28-ProjectTraining-ProshynNikita/css/pricing_options.css);
 
 * {
    padding: 0;

@@ -1,19 +1,23 @@
-/* tittle!!! */
+.awesome {
+   padding: 80px 0px;
+}
 
-.tittle_block {
-   margin-top: 20px;
+/* awesome_tittle!!! */
+
+.awesome_tittle_block {
    text-align: center;
 }
 
-.tittle {
+.awesome_tittle {
    font-size: 36px;
    font-family: 'Raleway', sans-serif;
    font-weight: 400;
    line-height: 42px;
    color: #212121;
+   text-transform: uppercase;
 }
 
-.tittle::after {
+.awesome_tittle::after {
    content: '';
    display: block;
    color: #e72424;
@@ -24,7 +28,7 @@
    margin: 34px auto 0;
 }
 
-.tittle_text {
+.awesome_tittle_text {
    color: #86878b;
    font-family: 'Open Sans', sans-serif;
    font-size: 14px;
@@ -33,26 +37,25 @@
    margin-top: 34px;
 }
 
-/* awesome_wrapp!!! */
+/* awesome_item!!! */
 
-.awesome_wrapp {
+.awesome_item {
    margin: 68px -15px 0px -15px;
    display: flex;
-   justify-content: space-around;
+   justify-content: space-evenly;
    flex-wrap: wrap;
 }
 
-/* .wrapp_ligtbulb!!! */
+/* .item_ligtbulb!!! */
 
-.wrapp_ligtbulb {
-   border: 0px solid #fff;
-   width: 350px;
+.item_ligtbulb {
+   max-width: 350px;
    margin: 0 15px;
 
    /* margin-left: 147px; */
 }
 
-.wrapp_ligtbulb_img {
+.item_ligtbulb_img {
    border: 1px solid #e72424;
    width: 70px;
    height: 70px;
@@ -63,7 +66,7 @@
    margin: 0 auto 30px;
 }
 
-.wrapp_ligtbulb_tittle {
+.item_ligtbulb_tittle {
    font-family: 'Open Sans', sans-serif;
    font-size: 20px;
    line-height: 27px;
@@ -73,7 +76,7 @@
    margin-bottom: 16px;
 }
 
-.wrapp_ligtbulb_text p {
+.item_ligtbulb_text p {
    font-size: 14px;
    font-weight: 400;
    line-height: 19px;
@@ -82,16 +85,15 @@
    text-align: center;
 }
 
-/* wrapp_keyboard!!! */
+/* item_keyboard!!! */
 
-.wrapp_keybord {
-   border: 0px solid #fff;
+.item_keybord {
    width: 350px;
    margin: 0px 15px;
    /* margin-left: 147px; */
 }
 
-.wrapp_keybord_img {
+.item_keybord_img {
    border: 1px solid #e72424;
    width: 70px;
    height: 70px;
@@ -102,7 +104,7 @@
    margin: 0 auto 30px;
 }
 
-.wrapp_keybord_tittle {
+.item_keybord_tittle {
    font-family: 'Open Sans', sans-serif;
    font-size: 20px;
    line-height: 27px;
@@ -112,7 +114,7 @@
    margin-bottom: 16px;
 }
 
-.wrapp_keybord_text p {
+.item_keybord_text p {
    font-size: 14px;
    font-weight: 400;
    line-height: 19px;
@@ -121,16 +123,15 @@
    text-align: center;
 }
 
-/* wrapp_lighting!!! */
+/* item_lighting!!! */
 
-.wrapp_lighting {
-   border: 0px solid #fff;
+.item_lighting {
    width: 350px;
    margin: 0 15px;
    /* margin-left: 147px; */
 }
 
-.wrapp_lighting_img {
+.item_lighting_img {
    border: 1px solid #e72424;
    width: 70px;
    height: 70px;
@@ -141,7 +142,7 @@
    margin: 0 auto 30px;
 }
 
-.wrapp_lighting_tittle {
+.item_lighting_tittle {
    font-family: 'Open Sans', sans-serif;
    font-size: 20px;
    line-height: 27px;
@@ -151,7 +152,7 @@
    margin-bottom: 16px;
 }
 
-.wrapp_lighting_text p {
+.item_lighting_text p {
    font-size: 14px;
    font-weight: 400;
    line-height: 19px;
