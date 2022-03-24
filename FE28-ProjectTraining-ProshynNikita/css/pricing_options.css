@@ -47,9 +47,9 @@
    flex-wrap: wrap;
 }
 
-/* allItem_basic */
+/* wrap_basic */
 
-.allItem_basic {
+.wrap_basic {
    max-width: 340px;
    justify-content: center;
    text-align: center;
@@ -106,9 +106,9 @@
    white-space: nowrap;
 }
 
-/* allItem_optima */
+/* wrap_optima */
 
-.allItem_optima {
+.wrap_optima {
    max-width: 340px;
    justify-content: center;
    text-align: center;
@@ -165,9 +165,9 @@
    white-space: nowrap;
 }
 
-/* allItem_pro */
+/* wrap_pro */
 
-.allItem_pro {
+.wrap_pro {
    max-width: 340px;
    justify-content: center;
    text-align: center;
