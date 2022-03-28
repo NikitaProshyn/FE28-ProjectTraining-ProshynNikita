@@ -2,7 +2,7 @@
    padding: 80px 0px;
 }
 
-/* awesome_tittle!!! */
+/* awesome_tittle_block!!! */
 
 .awesome_tittle_block {
    text-align: center;
@@ -20,12 +20,10 @@
 .awesome_tittle::after {
    content: '';
    display: block;
-   color: #e72424;
-   border: 0px solid #e72424;
    background-color: #e72424;
    height: 2px;
    width: 64px;
-   margin: 34px auto 0;
+   margin: 34px auto;
 }
 
 .awesome_tittle_text {
@@ -37,12 +35,12 @@
    margin-top: 34px;
 }
 
-/* awesome_item!!! */
+/* awesome_wrap!!! */
 
-.awesome_item {
+.awesome_wrap {
    margin: 68px -15px 0px -15px;
    display: flex;
-   justify-content: space-evenly;
+   justify-content: space-between;
    flex-wrap: wrap;
 }
 
@@ -51,8 +49,6 @@
 .item_ligtbulb {
    max-width: 350px;
    margin: 0 15px;
-
-   /* margin-left: 147px; */
 }
 
 .item_ligtbulb_img {

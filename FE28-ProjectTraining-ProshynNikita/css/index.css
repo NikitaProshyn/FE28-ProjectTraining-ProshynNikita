@@ -1,6 +1,8 @@
-@import url(/FE28-ProjectTraining-ProshynNikita/css/awesome.css);
-@import url(/FE28-ProjectTraining-ProshynNikita/css/cdn.css);
-@import url(/FE28-ProjectTraining-ProshynNikita/css/pricing_options.css);
+@import url(./cdn.css);
+@import url(./awesome.css);
+@import url(./pricing_options.css);
+@import url(./axure.css);
+@import url(./customers.css);
 
 * {
    padding: 0;
@@ -14,4 +16,6 @@
    max-width: 1170px;
    padding: 0px 15px;
    margin: auto;
+   position: relative;
+   z-index: 1000;
 }

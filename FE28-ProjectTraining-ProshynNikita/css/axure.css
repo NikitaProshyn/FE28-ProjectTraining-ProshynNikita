@@ -1,0 +1,74 @@
+/* axure  */
+
+.axure {
+   background: url(../img/bg/backgroundaxure.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   position: relative;
+   z-index: 1;
+   padding: 58px 0;
+}
+
+.axure::after {
+   content: '';
+   background: rgba(0, 0, 0, 0.55);
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   z-index: 100;
+}
+
+.axure_wrap {
+   justify-content: center;
+   text-align: center;
+}
+
+.axure_tittle {
+   font-size: 36px;
+   font-weight: 400;
+   font-family: 'Raleway', sans-serif;
+   line-height: 42px;
+   color: #fff;
+   text-transform: uppercase;
+}
+
+.axure_tittle::after {
+   content: '';
+   display: block;
+   background-color: #fff;
+   height: 2px;
+   width: 64px;
+   margin: 34px auto;
+}
+
+.axure_text {
+   font-size: 16px;
+   font-weight: 300;
+   font-family: 'Raleway', sans-serif;
+   line-height: 19px;
+   color: rgba(255, 255, 255, 0.8);
+}
+
+.axure_button {
+   margin-top: 57px;
+}
+
+.axure_button::first-letter {
+   text-transform: uppercase;
+}
+
+.axure_button_text {
+   font-size: 15px;
+   font-weight: 600;
+   font-family: 'Open sans', sans-serif;
+   line-height: 20px;
+   border: 1px solid #fff;
+   color: #fff;
+   padding: 11px 26px;
+}
+
+.axure_button_text:hover {
+   cursor: wait;
+}
