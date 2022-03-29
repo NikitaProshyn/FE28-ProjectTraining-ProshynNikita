@@ -4,6 +4,7 @@
    background: url(../img/bg/backgroundaxure.jpg);
    background-repeat: no-repeat;
    background-position: center;
+   background-size: cover;
    position: relative;
    z-index: 1;
    padding: 58px 0;
