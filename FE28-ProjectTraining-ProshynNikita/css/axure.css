@@ -52,8 +52,15 @@
    color: rgba(255, 255, 255, 0.8);
 }
 
+/* button */
+
 .axure_button {
-   margin-top: 57px;
+   margin: 57px auto 0px;
+   display: block;
+   max-width: 135px;
+   line-height: 40px;
+   border: 1px solid #fff;
+   cursor: pointer;
 }
 
 .axure_button::first-letter {
@@ -64,12 +71,5 @@
    font-size: 15px;
    font-weight: 600;
    font-family: 'Open sans', sans-serif;
-   line-height: 20px;
-   border: 1px solid #fff;
    color: #fff;
-   padding: 11px 26px;
-}
-
-.axure_button_text:hover {
-   cursor: wait;
 }

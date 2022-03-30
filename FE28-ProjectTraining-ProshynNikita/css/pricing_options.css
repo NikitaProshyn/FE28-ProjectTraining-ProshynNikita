@@ -64,7 +64,7 @@
    color: #ffffff;
 }
 
-.item_tarifName_basic::first-letter {
+.item_name_basic::first-letter {
    text-transform: uppercase;
 }
 

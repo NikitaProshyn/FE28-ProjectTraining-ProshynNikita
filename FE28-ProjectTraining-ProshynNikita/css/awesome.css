@@ -62,6 +62,21 @@
    margin: 0 auto 30px;
 }
 
+.fa-compass {
+   font-size: 24px;
+   color: #ff8b38;
+}
+
+.fa-keyboard {
+   font-size: 24px;
+   color: #ff8b38;
+}
+
+.fa-bolt-lightning {
+   font-size: 24px;
+   color: #ff8b38;
+}
+
 .item_ligtbulb_tittle {
    font-family: 'Open Sans', sans-serif;
    font-size: 20px;
