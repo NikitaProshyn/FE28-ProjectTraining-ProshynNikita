@@ -12,7 +12,7 @@
    font-size: 36px;
    font-weight: 400;
    font-family: 'Raleway', sans-serif;
-   line-height: 42 px;
+
    color: #212121;
    text-transform: uppercase;
 }
@@ -30,7 +30,7 @@
    font-size: 14px;
    font-weight: 400;
    font-family: 'Open sans', sans-serif;
-   line-height: 19px;
+
    color: #86878b;
 }
 
@@ -77,7 +77,7 @@
    font-size: 14px;
    font-weight: 400;
    font-family: 'Open Sans', sans-serif;
-   line-height: 19px;
+
    text-align: center;
    color: #86878b;
 }
@@ -116,7 +116,7 @@
    font-size: 20px;
    font-weight: 700;
    font-family: 'Open sans', sans-serif;
-   line-height: 27px;
+
    color: #333333;
 }
 
@@ -125,7 +125,7 @@
    font-size: 14px;
    font-weight: 400;
    font-family: 'Open sans', sans-serif;
-   line-height: 19px;
+
    color: #86878b;
    margin-top: 12px;
 }
